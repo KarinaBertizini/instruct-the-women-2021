@@ -32,5 +32,3 @@ def latest_version(package_name):
     else:
         achar = achar.json()
         return achar['info']['version']
- 
-
