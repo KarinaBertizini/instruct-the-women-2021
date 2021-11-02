@@ -31,6 +31,6 @@ def latest_version(package_name):
 #se ele der diferente ele vai retornar os valores das chaves em uma lista a última versão
     else:
         achar = achar.json()
-        return list(achar['releases'].keys())[-1]
+        return achar['info']['version']
  
 
